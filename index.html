@@ -35,6 +35,30 @@
         font-family: sans-serif;
         color: darkslateblue;
     }
+    .two-columns {
+        text-align: center;
+        font-size: 0;
+    }
+    .two-columns .column{
+        width: 100%;
+        max-width: 300px;
+        display: inline-block;
+        vertical-align: top;
+        text-align: center;
+    }
+    .icons-text{
+        text-align: center;
+        font-size: 0;
+        padding: 15px 0 25px;
+    }
+
+    .icons-text .column{
+        width: 100%;
+        max-width: 300px;
+        display: inline-block;
+        vertical-align: top;
+        text-align: center;
+    }
  </style>   
 </head>
 <body>
@@ -53,7 +77,7 @@
             <!-- LOGO SECTION -->
 
             <tr>
-                <td>
+                <td style="padding: 14px 0 4px;">
                     <table width="100%">
 
                         <tr>
@@ -62,12 +86,21 @@
                                 <table class="column">
 
                                     <tr>
-                                        <td>
-                                            <a href="https://github.com/sosariel"><img src="" alt=""></a>
+                                        <td style="padding: 0 50px 10px">
+                                            <a href="https://github.com/sosariel"><img src="/images/logo_thumbnail.png" alt="Ale Trail Logo" width="100" title="Ale Trail Logo"></a>
                                         </td>
                                     </tr>
 
 
+                                </table>
+                                <table class="column">
+                                    <tr>
+                                        <td style="padding: 10px 72px">
+                                            <a href="https://www.linkedin.com/in/sosariel/"><img src="/images/free-linkedin-logo-icon-2430-thumb.png" alt="" width="30"></a>
+                                            <a href="https://www.linkedin.com/in/sosariel/"><img src="/images/githublogo.png" alt="" width="30"></a>
+                                            
+                                        </td>
+                                    </tr>
                                 </table>
 
 
@@ -75,6 +108,71 @@
                         </tr>
 
 
+                    </table>
+                </td>
+            </tr>
+
+            <!-- BANNER IMAGE -->
+
+            <tr>
+                <td>
+                    <a href="#"><img src="images/banner.png" alt="" width="600" style="max-width: 100%;"></a>
+                </td>
+            </tr>
+
+            <!-- TWO COLUMN SECTION -->
+
+            <tr>
+                <td>
+                    <table width="100%">
+                        <tr>
+                            <td class="icons-text">
+                                
+                                <table class="column">
+                                   <tr>
+                                     <td class="padding">
+
+                                        <table class="content">
+                                            <tr>
+                                                <td>
+                                                    <a href="#"><img src="/images/storeicon.png" alt="" width="130" style="max-width: 130px;"></a>
+
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <p style="font-weight: bold;font-size: 17px;">Brewers</p>
+                                                    <p>Add your brewery and update your custom page with store hours, contact info, and beer listings.</p>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                     </td>
+                                   </tr>
+                                 </table>
+                                 <table class="column">
+                                    <tr>
+                                      <td class="padding">
+ 
+                                         <table class="content">
+                                             <tr>
+                                                 <td>
+                                                     <a href="#"><img src="/images/manwbeer.png" alt="" width="130" style="max-width: 130px;"></a>
+ 
+                                                 </td>
+                                             </tr>
+                                             <tr>
+                                                 <td>
+                                                     <p style="font-weight: bold;font-size: 17px;">Beer Lovers</p>
+                                                     <p>Find local breweries and their offerings. </p>
+                                                 </td>
+                                             </tr>
+                                         </table>
+                                      </td>
+                                    </tr>
+                                  </table>
+
+                            </td>
+                        </tr>
                     </table>
                 </td>
             </tr>
