@@ -46,19 +46,26 @@
         vertical-align: top;
         text-align: center;
     }
+    
     .icons-text{
         text-align: center;
         font-size: 0;
         padding: 15px 0 25px;
     }
 
-    .icons-text .column{
-        width: 100%;
-        max-width: 200px;
-        display: inline-block;
-        vertical-align: top;
-        text-align: center;
-    }
+    .icons-text .column {
+  width: calc(50% - 10px); /* Adjust the value as needed */
+  max-width: 200px;
+  display: inline-block;
+  vertical-align: top;
+  text-align: center;
+  margin-right: 40px;
+}
+
+.icons-text .column:last-child {
+  margin-right: 0;
+}
+
     .icons-text .padding{
         padding: 15px;
     }
@@ -93,7 +100,7 @@
             <!-- LOGO SECTION -->
 
             <tr>
-                <td style="padding: 14px 0 4px;">
+                <td style="padding: 20px 0 0px;">
                     <table width="100%">
 
                         <tr>
@@ -111,7 +118,7 @@
                                 </table>
                                 <table class="column">
                                     <tr>
-                                        <td style="padding: 10px 72px; vertical-align: top;">
+                                        <td style="padding: 0px 110px 14px; vertical-align: top;">
                                             <a href="https://www.linkedin.com/in/sosariel/"><img src="/images/free-linkedin-logo-icon-2430-thumb.png" alt="" width="30"></a>
                                             <a href="https://github.com/sosariel"><img src="/images/githublogo.png" alt="" width="30"></a>
                                             
@@ -159,7 +166,7 @@
                                             </tr>
                                             <tr>
                                                 <td>
-                                                    <p style="font-weight: bold;font-size: 17px;">Brewers</p>
+                                                    <p style="font-weight: bold;font-size: 17px; text-align: center;">Brewers</p>
                                                     <p>Add your brewery and update your custom page with store hours, contact info, and beer listings.</p>
                                                 </td>
                                             </tr>
@@ -175,14 +182,14 @@
                                          <table class="content">
                                              <tr>
                                                  <td>
-                                                     <a href="#"><img src="/images/manwbeer.png" alt="" width="130" style="max-width: 130px;"></a>
+                                                     <a href="#"><img src="/images/beers.png" alt="" width="130" style="max-width: 130px; "></a>
  
                                                  </td>
                                              </tr>
                                              <tr>
                                                  <td>
-                                                     <p style="font-weight: bold;font-size: 17px;">Beer Lovers</p>
-                                                     <p>Find local breweries and their offerings. </p>
+                                                     <p style="font-weight: bold;font-size: 17px; text-align: center;">Beer Lovers</p>
+                                                     <p>Find local breweries and browse their offerings. </p>
                                                  </td>
                                              </tr>
                                          </table>
